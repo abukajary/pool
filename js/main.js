@@ -19,7 +19,13 @@ function initMap() {
         title: "Байзакова, 263, 1 этаж, 5 офис",
         icon: 'https://abukajary.github.io/pool/img/mapIcon.png'
     });
-    mainOfficeMarker.setPosition(new google.maps.LatLng(43.241966206414055, 76.9139198230771));
+    window.addEventListener('resize', ()=> {
+        if (window.innerWidth < 858) {
+            mainOfficeMarker.setPosition(new google.maps.LatLng(43.24198572367169, 76.91007353001741));
+        } else {
+            mainOfficeMarker.setPosition(new google.maps.LatLng(43.241966206414055, 76.9139198230771));
+        }
+    })
 }
 
 var swiper = new Swiper(".mySwiper", {
@@ -31,15 +37,15 @@ var swiper = new Swiper(".mySwiper", {
     },
 
     breakpoints: {
-        640: {
+        483: {
             slidesPerView: 2,
             spaceBetween: 20,
         },
-        768: {
+        1000: {
             slidesPerView: 3,
             spaceBetween: 40,
         },
-        1024: {
+        1218: {
             slidesPerView: 4,
             spaceBetween: 50,
         },

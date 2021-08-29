@@ -111,6 +111,11 @@
         width: 90%;
     }
 }
+@media screen and (max-width: 595px) {
+    .feedback, .main {
+        background-position-x: 70%;
+    }
+}
 @media screen and (max-width: 483px) {
     .main__header {
         margin-top: 2px;
