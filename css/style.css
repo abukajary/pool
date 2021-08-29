@@ -40,6 +40,24 @@ a { text-decoration: none; color: inherit;}
     font-size: 19px;
 }
 
+.contact {
+    display: none;
+    width: 100%;
+    height: 50px;
+    background: #163950;
+    color: white;
+    justify-content: center;
+}
+.contact .wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contact .wrapper a {
+    margin: 0 20px;
+}
+
 .main {
     width: 100%;
     max-width: 100vw;
@@ -126,10 +144,7 @@ a { text-decoration: none; color: inherit;}
     justify-content: center;
     align-items: center;
 }
-.slider__slide {
-
-}
-.slider__slide img {
+.slider img {
     display: block;
     object-fit: cover;
     margin: 0 28px;
@@ -176,12 +191,12 @@ a { text-decoration: none; color: inherit;}
 }
 .price__top {
     width: 100%;
-    height: 165px;
+    height: 100%;
     background: url("../img/waves.png") no-repeat;
 }
 .price__mid {
     width: 100%;
-    height: 584px;
+    height: 704px;
     background: #F2F2F2;
     /*padding: 50px 0 0 0;*/
     display: flex;
@@ -206,7 +221,8 @@ a { text-decoration: none; color: inherit;}
     /*margin-top: 77px;*/
 }
 .price__mid .price__mid__form form {
-    width: 579.92px;
+    width: 100%;
+    max-width: 579.92px;
     height: 348px;
     display: flex;
     justify-content: center;
@@ -260,8 +276,8 @@ a { text-decoration: none; color: inherit;}
 }
 .price__bot {
     width: 100%;
-    height: 239px;
-    background: url("../img/wave-bot.png");
+    height: 100%;
+    background: url("../img/wave-bot.png") no-repeat;
 }
 
 .goods {
@@ -467,7 +483,6 @@ a { text-decoration: none; color: inherit;}
 
     position: absolute;
     z-index: 1;
-    margin-right:500px;
 }
 .map__info__contacts {
     width: 100%;
