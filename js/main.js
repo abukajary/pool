@@ -17,7 +17,7 @@ function initMap() {
         position: mapPosition,
         map: mainOffice,
         title: "Байзакова, 263, 1 этаж, 5 офис",
-        icon: 'http://localhost:63342/netLightTest/img/mapIcon.png'
+        icon: 'https://abukajary.github.io/pool/img/mapIcon.png'
     });
     mainOfficeMarker.setPosition(new google.maps.LatLng(43.241966206414055, 76.9139198230771));
 }
