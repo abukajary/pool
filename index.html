@@ -1,206 +1,351 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
     <title>Pool: Строительство Бассейнов</title>
-</head>
-<body>
-<div class="contact">
-    <div class="wrapper">
-        <img src="img/telephone_icon.png" alt="tel: ">
-        <a href="">+7 727 368 83 56</a>
-        <a href="">+7 771 964 36 50</a>
-    </div>
-</div>
-<div class="main">
-    <div class="main__header">
-        <div class="main__header__links">
-            <div class="main__header__links__items">
-                <a class="underline" href="">Главная</a>
-                <a class="hide_underline" href="">Товары</a>
-                <a class="hide_underline" href="">Контакты</a>
-            </div>
-            <img src="img/logo.png" alt="">
-            <div class="main__header__links__items">
-                <a class="hide_underline" href="">+7 727 368 83 56</a>
-                <a class="hide_underline" href="">+7 771 964 36 50</a>
-            </div>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="contact">
+        <div class="wrapper">
+          <img src="img/telephone_icon.png" alt="tel: " />
+          <a href="">+7 727 368 83 56</a>
+          <a href="">+7 771 964 36 50</a>
         </div>
-        <div class="main__header__info">
+      </div>
+      <div class="main">
+        <div class="main__header">
+          <div class="main__header__links">
+            <div class="main__header__links__items">
+              <a class="leaf_underline active" href="">Главная</a>
+              <a class="leaf_underline" href="">Товары</a>
+              <a class="leaf_underline" href="">Контакты</a>
+            </div>
+            <img src="img/logo.png" alt="" />
+            <div class="main__header__links__items">
+              <a href="">+7 727 368 83 56</a>
+              <a href="">+7 771 964 36 50</a>
+            </div>
+          </div>
+          <div class="main__header__info">
             <p class="text__title">СТРОИТЕЛЬСТВО БАССЕЙНОВ</p>
-            <p class="text__description"><b>Полный спект работ:</b> от проектирования и сдачи “под ключ” до обслуживания</p>
-            <p class="text__description">или реконструкции вашего бассейна, а также большой выбор товаров</p>
-            <button class="primaryBtn">Оставить заявку</button>
+            <p class="text__description">
+              <b>Полный спект работ:</b> от проектирования и сдачи “под ключ” до
+              обслуживания
+            </p>
+            <p class="text__description">
+              или реконструкции вашего бассейна, а также большой выбор товаров
+            </p>
+            <button disabled class="primaryBtn">Оставить заявку</button>
+          </div>
         </div>
-    </div>
-</div>
-<div class="work">
-    <div class="wrapper">
-        <p class="text__title">НАШИ РАБОТЫ</p>
-        <div class="slider">
-            <img src="img/sliderImg1.png" alt="">
-            <img src="img/sliderImg2.png" alt="">
-            <img src="img/sliderImg3.png" alt="">
-        </div>
-        <div class="slider__btn">
+      </div>
+      <div class="work">
+        <div class="wrapper">
+          <p class="text__title">НАШИ РАБОТЫ</p>
+          <div class="swiper pool-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/sliderImg1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/sliderImg2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/sliderImg3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="slider__btn">
             <div class="slide-prev"><</div>
             <div class="slide-next">></div>
+          </div>
         </div>
-    </div>
-</div>
-<div class="price"  >
-    <div class="price__top"></div>
-    <div class="price__mid">
-        <p class="text__title">СКОЛЬКО БУДЕТ СТОИТЬ БАССЕЙН?</p>
-        <p class="text__description">Ответьте на несколько вопросов и наши специалисты отправят вам смету
-            в течении 1 рабочего дня</p>
-        <div class="price__mid__form">
+      </div>
+      <div class="price">
+        <div class="price__top"></div>
+        <div class="price__mid">
+          <p class="text__title">СКОЛЬКО БУДЕТ СТОИТЬ БАССЕЙН?</p>
+          <p class="text__description">
+            Ответьте на несколько вопросов и наши специалисты отправят вам смету
+            в течении 1 рабочего дня
+          </p>
+          <div class="price__mid__form">
             <form action="">
-                <div class="price__mid__form__container">
-                    <label for="pool-style">
-                        Отделка чаши:
-                        <select id="pool-style">
-                            <option value="polipropelen">Полипропилен</option>
-                            <option value="polipropelen">Полипропилен</option>
-                            <option value="polipropelen">Полипропилен</option>
-                            <option value="polipropelen">Полипропилен</option>
-                        </select>
-                    </label>
-                    <label for="is-warm">
-                        Нагрев воды:
-                        <select id="is-warm">
-                            <option value="iswarm-false">Нет</option>
-                            <option value="iswarm-true">Да</option>
-                        </select>
-                    </label>
-                    <label for="pool-size">
-                        Размер бассейна:
-                        <input type="range" name="rangeInput" min="0" max="3" value="0" id="pool-size" onchange="updateTextInput(this.value);"><span id="textInput">7х3 м.</span>
-                    </label>
-                    <button class="primaryBtn">Оставить заявку</button>
-                </div>
+              <div class="price__mid__form__container">
+                <label for="pool-style">
+                  Отделка чаши:
+                  <div class="select">
+                    <div class="selectWrapper">
+                      <div class="selectCustom js-selectCustom">
+                        <div
+                          class="selectCustom-trigger"
+                          data-value="Полипропилен"
+                        >
+                          Полипропилен
+                        </div>
+                        <div class="selectCustom-options">
+                          <div
+                            class="selectCustom-option"
+                            data-value="Полипропилен"
+                          >
+                            Полипропилен
+                          </div>
+                          <div
+                            class="selectCustom-option"
+                            data-value="Полипропилен3"
+                          >
+                            Полипропилен3
+                          </div>
+                          <div
+                            class="selectCustom-option"
+                            data-value="Полипропилен4"
+                          >
+                            Полипропилен4
+                          </div>
+                          <div
+                            class="selectCustom-option"
+                            data-value="Полипропилен5"
+                          >
+                            Полипропилен5
+                          </div>
+                          <div
+                            class="selectCustom-option"
+                            data-value="Полипропилен6"
+                          >
+                            Полипропилен6
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </label>
+                <label for="is-warm">
+                  Нагрев воды:
+                  <div class="select">
+                    <div class="selectWrapper">
+                      <div class="selectCustom js-selectCustom">
+                        <div
+                          class="selectCustom-trigger"
+                          data-value="Да"
+                        >
+                          Да
+                        </div>
+                        <div class="selectCustom-options">
+                          <div
+                            class="selectCustom-option"
+                            data-value="Да"
+                          >
+                            Да
+                          </div>
+                          <div
+                            class="selectCustom-option"
+                            data-value="Нет"
+                          >
+                            Нет
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </label>
+                <label for="pool-size">
+                  Размер бассейна:
+                  <input
+                    type="range"
+                    name="rangeInput"
+                    min="0"
+                    max="3"
+                    value="0"
+                    id="pool-size"
+                    onchange="updateTextInput(this.value);"
+                  /><span id="poolSizeText">7х3 м.</span>
+                </label>
+                <button class="primaryBtn applyPoolSetts">
+                  Оставить заявку
+                </button>
+              </div>
             </form>
-            <img src="img/pools.png" alt="">
+            <img src="img/pools.png" alt="" />
+          </div>
         </div>
-    </div>
-    <div class="price__bot"></div>
-</div>
-<div class="goods">
-    <div class="goods__wrapper">
-        <div class="goods__wrapper__text">
+        <div class="price__bot"></div>
+      </div>
+      <div class="goods">
+        <div class="goods__wrapper">
+          <div class="goods__wrapper__text">
             <div class="text__title">ТОВАРЫ ДЛЯ БАССЕЙНА</div>
             <div class="text__underline"></div>
             <div class="goods__wrapper__text__links">
-                <a href="">Все</a>
-                <a href="">Насосы</a>
-                <a href="">Нагреватели</a>
+              <a class="goods_filter">Все</a>
+              <a class="goods_filter">Насосы</a>
+              <a class="goods_filter">Нагреватели</a>
             </div>
-        </div>
-        <div class="swiper mySwiper">
+          </div>
+          <div class="swiper goods-swiper">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="img/bestway-filter-1.png" alt="">
-                    <p class="text__description">Фильтровальная установка Bestway</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/abs-projector-2.png" alt="">
-                    <p class="text__description">Прожектор под плитку с оправой из ABS-пластика</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/bestway-filter-1.png" alt="">
-                    <p class="text__description">Фильтровальная установка Bestway</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/abs-projector-2.png" alt="">
-                    <p class="text__description">Прожектор под плитку с оправой из ABS-пластика</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/bestway-filter-1.png" alt="">
-                    <p class="text__description">Фильтровальная установка Bestway</p>
-                </div>
-                <div class="swiper-slide">
-                    <img src="img/abs-projector-2.png" alt="">
-                    <p class="text__description">Прожектор под плитку с оправой из ABS-пластика</p>
-                </div>
+              <div
+                class="swiper-slide"
+                data-type="Насосы"
+                class="filter-content"
+              >
+                <img src="img/bestway-filter-1.png" alt="" />
+                <p class="text__description">
+                  Фильтровальная установка Bestway
+                </p>
+              </div>
+              <div
+                class="swiper-slide"
+                data-type="Нагреватели"
+                class="filter-content"
+              >
+                <img src="img/abs-projector-2.png" alt="" />
+                <p class="text__description">
+                  Прожектор под плитку с оправой из ABS-пластика
+                </p>
+              </div>
+              <div
+                class="swiper-slide"
+                data-type="Нагреватели"
+                class="filter-content"
+              >
+                <img src="img/bestway-filter-1.png" alt="" />
+                <p class="text__description">
+                  Фильтровальная установка Bestway
+                </p>
+              </div>
+              <div
+                class="swiper-slide"
+                data-type="Насосы"
+                class="filter-content"
+              >
+                <img src="img/abs-projector-2.png" alt="" />
+                <p class="text__description">
+                  Прожектор под плитку с оправой из ABS-пластика
+                </p>
+              </div>
+              <div
+                class="swiper-slide"
+                data-type="Насосы"
+                class="filter-content"
+              >
+                <img src="img/bestway-filter-1.png" alt="" />
+                <p class="text__description">
+                  Фильтровальная установка Bestway
+                </p>
+              </div>
+              <div
+                class="swiper-slide"
+                data-type="Нагреватели"
+                class="filter-content"
+              >
+                <img src="img/abs-projector-2.png" alt="" />
+                <p class="text__description">
+                  Прожектор под плитку с оправой из ABS-пластика
+                </p>
+              </div>
             </div>
-            <div class="swiper-button-next "></div>
-            <div class="swiper-button-prev "><div class="stop"></div></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"><div class="stop"></div></div>
+          </div>
+          <button disabled class="primaryBtn">Смотреть все</button>
         </div>
-        <button class="primaryBtn">Смотреть все</button>
-    </div>
-</div>
-<div class="advantage">
-    <div class="advantage__top"></div>
-    <div class="advantage__mid">
-        <div class="text__title">ЧТО ВЫ ПОЛУЧАЕТЕ?</div>
-        <div class="advantage__items">
+      </div>
+      <div class="advantage">
+        <div class="advantage__top"></div>
+        <div class="advantage__mid">
+          <div class="text__title">ЧТО ВЫ ПОЛУЧАЕТЕ?</div>
+          <div class="advantage__items">
             <div class="advantage__items__item">
-                <img src="img/research-logo1.png" alt="">
-                <p class="text__description">Индивидуальное предложение</p>
+              <img src="img/research-logo1.png" alt="" />
+              <p class="text__description">Индивидуальное предложение</p>
             </div>
             <div class="advantage__items__item">
-                <img src="img/time-management-logo2.png" alt="">
-                <p class="text__description">Комплексная поддержка</p>
+              <img src="img/time-management-logo2.png" alt="" />
+              <p class="text__description">Комплексная поддержка</p>
             </div>
             <div class="advantage__items__item">
-                <img src="img/hand-logo3.png" alt="">
-                <p class="text__description">Качественные материалы</p>
+              <img src="img/hand-logo3.png" alt="" />
+              <p class="text__description">Качественные материалы</p>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="advantage__bot"></div>
-</div>
-<div class="feedback">
-    <div class="feedback__wrapper">
-        <div class="feedback__wrapper__text">
-            <p class="text__title" style="background: none">ОСТАЛИСЬ ВОПРОСЫ?</p>
+        <div class="advantage__bot"></div>
+      </div>
+      <div class="feedback">
+        <div class="feedback__wrapper">
+          <div class="feedback__wrapper__text">
+            <p class="text__title" style="background: none">
+              ОСТАЛИСЬ ВОПРОСЫ?
+            </p>
             <div class="text__underline"></div>
-            <p class="text__description">Оставьте заявку и наши специалисты свяжутся с вами в ближайшее время</p>
+            <p class="text__description">
+              Оставьте заявку и наши специалисты свяжутся с вами в ближайшее
+              время
+            </p>
+          </div>
+          <form action="">
+            <input type="text" id="name" placeholder="Имя" />
+            <input
+              type="tel"
+              id="phoneNum"
+              onkeypress="return onlyNumberKey(event)"
+              placeholder="Телефон"
+            />
+            <button disabled class="primaryBtn">Отправить</button>
+          </form>
         </div>
-        <form action="">
-            <input type="text" id="name" placeholder="Имя">
-            <input type="text" id="phoneNum" placeholder="Телефон">
-            <button class="primaryBtn">Отправить</button>
-        </form>
-    </div>
-</div>
-<div class="mmap">
-    <div class="map" id="map"></div>
-    <div class="map__info">
-        <div class="wrapper">
+      </div>
+      <div class="mmap">
+        <div class="map" id="map"></div>
+        <div class="map__info">
+          <div class="wrapper">
             <p class="text__title">Контакты</p>
             <div class="map__info__contacts">
-                <div class="map__info__contacts__item">
-                    <img src="img/map_marker_icon.png" alt="">
-                    <p class="text__description">Казахстан, Алматы, Байзакова, 263, 1 этаж, 5 офис</p>
-                </div>
-                <div class="map__info__contacts__item">
-                    <img src="img/telephone_icon.png" alt="">
-                    <p class="text__description"><b>+7 727 368 83 56, +7 771 964 36 50</b></p>
-                </div>
-                <div class="map__info__contacts__item">
-                    <img src="img/mail_icon.png" alt="">
-                    <p class="text__description">imfo@pool.kz</p>
-                </div>
+              <div class="map__info__contacts__item">
+                <img src="img/map_marker_icon.png" alt="" />
+                <p class="text__description">
+                  Казахстан, Алматы, Байзакова, 263, 1 этаж, 5 офис
+                </p>
+              </div>
+              <div class="map__info__contacts__item">
+                <img src="img/telephone_icon.png" alt="" />
+                <p class="text__description">
+                  <b>+7 727 368 83 56, +7 771 964 36 50</b>
+                </p>
+              </div>
+              <div class="map__info__contacts__item">
+                <img src="img/mail_icon.png" alt="" />
+                <p class="text__description">imfo@pool.kz</p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!--
+    <!--
     kostyl
     Чтобы js смог получить иконку маркера карты,
     гружу на сервер невидимую пользователю картинку
     и указываю путь с сервера js коду в функции initMap()
 -->
-<img style="display: none" src="img/mapIcon.png" alt="">
-<!--end kostyl -->
+    <img style="display: none" src="img/mapIcon.png" alt="" />
+    <!--end kostyl -->
 
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq2hP7Uwqcb-5ak1Mtckhdq0CAUuh0jIM&callback=initMap"></script>
-</body>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/init-swiper.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq2hP7Uwqcb-5ak1Mtckhdq0CAUuh0jIM&callback=initMap"
+    ></script>
+  </body>
 </html>

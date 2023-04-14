@@ -1,188 +1,200 @@
 @media screen and (max-width: 1577px) {
-    .work .wrapper .slider img {
-        width: 70%;
-        height: 70%;
-    }
-    .work .wrapper .slider {
-        justify-content: center;
-    }
+  .work .wrapper .slider img {
+    width: 70%;
+    height: 70%;
+  }
+  .work .wrapper .slider {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 1419px) {
-    .price__mid__form img {
-        width: 40%;
-    }
-    .work .wrapper .slider img {
-        width: 50%;
-        height: 50%;
-    }
-    .map__info {
-        left: 100px;
-    }
-    .goods__wrapper {
-        width: 90%;
-    }
-    .price .text__description {
-        width: 70%;
-        text-align: center;
-    }
-    .feedback {
-        background-position: right;
-    }
+  .price__mid__form img {
+    width: 40%;
+  }
+  .work .wrapper .slider img {
+    width: 50%;
+    height: 50%;
+  }
+  .map__info {
+    left: 100px;
+  }
+  .goods__wrapper {
+    width: 90%;
+  }
+  .price .text__description {
+    width: 70%;
+    text-align: center;
+  }
+  .feedback {
+    background-position: right;
+  }
 }
 @media screen and (max-width: 1067px) {
-    .main__header__links {
-        width: 90%;
-    }
-    .main__header__links img {
-        width: 132px;
-        height: 71.51px;
-        align-self: center;
-    }
-    .work .wrapper .slider img {
-        width: 30%;
-    }
-    .price__mid__form img {
-        width: 0;
-    }
-    .price__mid__form {
-        background: url("../img/pools.png") no-repeat center;
-        justify-content: center;
-        align-items: center;
-    }
-    .price__mid__form form {
-        margin: 0!important;
-    }
-    .advantage__mid .advantage__items {
-        width: 80%;
-    }
+  .main__header__links {
+    width: 90%;
+  }
+  .main__header__links img {
+    width: 132px;
+    height: 71.51px;
+    align-self: center;
+  }
+  .work .wrapper .slider img {
+    width: 30%;
+  }
+  .price__mid__form img {
+    width: 0;
+  }
+  .price__mid__form {
+    background: url("../img/pools.png") no-repeat center;
+    justify-content: center;
+    align-items: center;
+  }
+  .price__mid__form form {
+    margin: 0 !important;
+  }
+  .advantage__mid .advantage__items {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 858px) {
-    .main__header__links__items:last-child,.work .wrapper .slider img:first-child, .work .wrapper .slider img:last-child {
-        display: none;
-    }
-    .contact {
-        display: flex;
-    }
-    .main__header__links__items {
-        width: 50%;
-    }
-    .main__header__links {
-        flex-direction: row-reverse;
-    }
-    .work .wrapper .slider img {
-        width: 80%;
-        height: 70%;
-    }
-    .main__header__info {
-        width: 65%;
-        margin: 0;
-        justify-content: space-evenly;
-    }
-    .main__header__info .text__description {
-        text-wrap: none;
-        line-height: normal;
-        margin-top: 20px;
-    }
-    .map__info, .map {
-        position: relative;
-    }
-    .mmap {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .map__info {
-        width: 80%;
-        left: 0;
-        margin-bottom: 38px;
-    }
-    .main {
-        background-position-x: 60%;
-    }
-    .price .text__title {
-        width: 80%;
-        text-align: center;
-    }
-    .price__mid .price__mid__form form {
-        width: 90%;
-    }
-    .price__mid .price__mid__form form .price__mid__form__container {
-        width: 90%;
-    }
+  .main__header__links__items:last-child,
+  .work .wrapper .slider img:first-child,
+  .work .wrapper .slider img:last-child {
+    display: none;
+  }
+  .contact {
+    display: flex;
+  }
+  .main__header__links__items {
+    width: 50%;
+  }
+  .main__header__links {
+    flex-direction: row-reverse;
+  }
+  .work .wrapper .slider img {
+    width: 80%;
+    height: 70%;
+  }
+  .main__header__info {
+    width: 65%;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+  .main__header__info .text__description {
+    text-wrap: none;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .map__info,
+  .map {
+    position: relative;
+  }
+  .mmap {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .map__info {
+    width: 80%;
+    left: 0;
+    margin-bottom: 38px;
+  }
+  .main {
+    background-position-x: 60%;
+  }
+  .price .text__title {
+    width: 80%;
+    text-align: center;
+  }
+  .price__mid .price__mid__form form {
+    width: 90%;
+  }
+  .price__mid .price__mid__form form .price__mid__form__container {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 595px) {
-    .feedback, .main {
-        background-position-x: 70%;
-    }
+  .feedback,
+  .main {
+    background-position-x: 70%;
+  }
 }
 @media screen and (max-width: 483px) {
-    .main__header {
-        margin-top: 2px;
-    }
-    .main__header__info {
-        width: 90%;
-    }
-    .main {
-        background-position-x: 70%;
-    }
-    .main__header__links__items a {
-
-        font-size: calc(0.5rem + 1vw);
-    }
-    .contact .wrapper {
-        width: 100%;
-    }
-    .advantage__items {
-        width: 98% !important;
-    }
-    .price__mid__form__container {
-        height: 90% !important;
-    }
-    .price__mid .price__mid__form form label {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    .goods__wrapper__text {
-        width: 100%;
-        text-align: center;
-    }
-    .advantage__items__item p{
-        font-size: calc(0.5rem + 1vw);
-    }
-    .advantage__items__item img {
-        width: 50%;
-    }
-    .map__info, .map__info .wrapper {
-        width: 100%;
-    }
-    .map__info .wrapper .text__title {
-        width: 70%;
-    }
+  .main__header {
+    margin-top: 2px;
+  }
+  .main__header__info {
+    width: 90%;
+  }
+  .main {
+    background-position-x: 70%;
+  }
+  .main__header__links__items a {
+    font-size: calc(0.5rem + 1vw);
+  }
+  .contact .wrapper {
+    width: 100%;
+  }
+  .advantage__items {
+    width: 98% !important;
+  }
+  .price__mid__form__container {
+    height: 90% !important;
+  }
+  .price__mid .price__mid__form form label {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .goods__wrapper__text {
+    width: 100%;
+    text-align: center;
+  }
+  .advantage__items__item p {
+    font-size: calc(0.5rem + 1vw);
+  }
+  .advantage__items__item img {
+    width: 50%;
+  }
+  .map__info,
+  .map__info .wrapper {
+    width: 100%;
+  }
+  .map__info .wrapper .text__title {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 369px) {
-    .contact .wrapper a {
-        margin: 0 2%;
-    }
-    .contact .wrapper {
-        justify-content: center;
-    }
-    .feedback__wrapper form {
-        width: 90%;
-    }
-    .feedback__wrapper form input {
-        width: 80%;
-    }
-    .goods__wrapper__text__links {
-        width: 90%;
-    }
-    .price__mid .text__title, .price__mid .text__description, .main__header__info {
-        width: 100%;
-        font-size: calc(1rem + 1vw);
-    }
-    .main__header {height: 430px}
-    .main__header img {
-        width: 86px;
-        height: 47.51px;
-    }
+  .contact .wrapper a {
+    margin: 0 2%;
+  }
+  .contact .wrapper {
+    justify-content: center;
+  }
+  .feedback__wrapper form {
+    width: 90%;
+  }
+  .feedback__wrapper form input {
+    width: 80%;
+  }
+  .goods__wrapper__text__links {
+    width: 90%;
+  }
+  .price__mid .text__title,
+  .price__mid .text__description,
+  .main__header__info {
+    width: 100%;
+    font-size: calc(1rem + 1vw);
+  }
+  .main__header {
+    height: 430px;
+  }
+  .main__header img {
+    width: 86px;
+    height: 47.51px;
+  }
+}
+.main-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
 }
